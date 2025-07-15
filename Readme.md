@@ -434,7 +434,7 @@ create_clock -period 10.000 -name sys_clk_pin -waveform {0.000 3.000} -add [get_
 
 The post-implementation timing report confirms that all timing requirements are met, ensuring the reliable operation of the `tanh_cordic` module at the specified clock frequency.
 
-<img width="1141" height="577" alt="Image" src="https://github.com/user-attachments/assets/41b9a12c-66b6-4e2d-b1f2-ca06bb175e91" />
+<img width="1479" height="359" alt="Image" src="https://github.com/user-attachments/assets/3bd67e17-838e-40af-b6dd-25ca698a9426" />
 
 ## Getting Started ✨
 
