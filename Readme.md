@@ -1,10 +1,10 @@
-# Hyperbolic Tangent (tanh) Implementation in Verilog 🚀
+This repository contains a Verilog implementation of the hyperbolic tangent (tanh) function using the CORDIC algorithm and GELU activation function implementation in Verilog, along with a comprehensive testbench, synthesis, and implementation results. This project aims to provide a clear and efficient hardware realization of the tanh function, crucial for various digital signal processing and neural network applications like GELU activation function implementation.
 
-This repository contains a Verilog implementation of the hyperbolic tangent (tanh) function using the CORDIC algorithm, along with a comprehensive testbench, synthesis, and implementation results. This project aims to provide a clear and efficient hardware realization of the tanh function, crucial for various digital signal processing and neural network applications like GELU activation function implementation.
+# Hyperbolic Tangent (tanh) Implementation in Verilog 🚀
 
 ## 1. Main Verilog Module (`tanh_cordic.v`) 💻
 
-The core of this project is the `tanh_cordic.v` module, which implements the hyperbolic tangent function. It utilizes a pipelined CORDIC (COordinate Rotation DIgital Computer) algorithm for efficient computation. The module is parameterized to allow flexibility in data width, fractional width, and the number of CORDIC iterations.
+The core of this project is the `tanh_cordic.v` module, which implements the hyperbolic tangent function. It utilizes a pipelined CORDIC (Coordinate Rotation Digital Computer) algorithm for efficient computation. The module is parameterized to allow flexibility in data width, fractional width, and the number of CORDIC iterations.
 
 ```verilog
 `timescale 1ns / 1ps
